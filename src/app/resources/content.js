@@ -67,7 +67,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Parv is an India-based full-stack developer with a passion for building responsive, scalable web applications. Skilled in React, Node.js, and MongoDB, his work focuses on creating seamless user experiences and efficient solutions. Parv enjoys exploring new technologies and crafting applications that merge creativity with functionality.</>
     },
     work: {
         display: true,
@@ -75,83 +75,141 @@ const about = {
         experiences: [
             {
                 company: 'MillionNeuron',
-                timeframe: 'April 2022 -  Jun 2022',
+                timeframe: 'April 2022 - Jun 2022',
                 role: 'Game Developer Intern',
                 achievements: [
                     <>Collaborated with the development team to create an educational game using Blueprints and C++, enhancing students' learning experience through practical application.</>,
                     <>Contributed to the development of showcase demos for investors, demonstrating the game's potential and value proposition.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
+                images: [
                     {
                         src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
+                        alt: 'MillionNeuron',
                         width: 16,
                         height: 9
                     }
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'Intellichains',
+                timeframe: 'October 2021 - December 2021',
+                role: 'VFX / Graphic Designer',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Produced engaging game trailers for upcoming releases as a VFX artist, leveraging industry-standard software to create high-quality visuals.</>,
+                    <>Designed professional marketing materials, including PDFs, designs, and business cards, as part of the graphic design team.</>
                 ],
-                images: [ ]
+                images: []
+            },
+            {
+                company: 'Digital Fruition',
+                timeframe: 'August 2021 - September 2021',
+                role: 'Graphic Design Intern',
+                achievements: [
+                    <>Developed visually compelling social media content to increase brand engagement.</>,
+                    <>Created over 600 posts for the company's social media, significantly boosting online presence.</>
+                ],
+                images: []
+            },
+            {
+                company: 'Nirmal Sanstha',
+                timeframe: 'July 2021',
+                role: 'Volunteer Graphic Designer',
+                achievements: [
+                    <>Designed informative posters for the NGO's social media handles to raise awareness about their initiatives and activities.</>
+                ],
+                images: []
             }
-        ]
+        ]        
     },
     studies: {
         display: true, // set to false to hide this section
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Sdvm',
+                description: <>Class XII | 8 CGPA | 2023</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'IGNOU',
+                description: <>B.C.A., Computer Applications | 7 CGPA | 2023 - 2026</>,
+            },
+            {
+                name: 'Scaler',
+                description: <>PG Diploma, Software Engineering | 7 CGPA | 2024 - 2025</>,
             }
-        ]
+        ]    
     },
     technical: {
         display: true, // set to false to hide this section
-        title: 'Technical skills',
+        title: 'Technical Skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'React.js',
+                description: <>Proficient in building dynamic, responsive UIs with React.js for web applications.</>,
+                images: []
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Node.js',
+                description: <>Experienced in backend development with Node.js, creating REST APIs and handling server-side logic.</>,
+                images: []
+            },
+            {
+                title: 'JavaScript (ES5/ES6)',
+                description: <>Skilled in JavaScript, with a strong understanding of ES6+ features for modern web development.</>,
+                images: []
+            },
+            {
+                title: 'MongoDB',
+                description: <>Hands-on experience with MongoDB for efficient data management and schema design in full-stack applications.</>,
+                images: []
+            },
+            {
+                title: 'TypeScript',
+                description: <>Experienced in TypeScript for building robust, scalable applications with type safety.</>,
+                images: []
+            },
+            {
+                title: 'TailwindCSS',
+                description: <>Skilled in TailwindCSS for rapid, responsive UI design with utility-first CSS.</>,
+                images: []
+            },
+            {
+                title: 'Express.js',
+                description: <>Experienced in Express.js for developing RESTful APIs and managing backend infrastructure.</>,
+                images: []
+            },
+            {
+                title: 'MySQL',
+                description: <>Knowledgeable in MySQL for relational database management and efficient query design.</>,
+                images: []
+            },
+            {
+                title: 'Redux',
+                description: <>Experienced with Redux for state management in complex React applications.</>,
+                images: []
+            },
+            {
+                title: 'Prisma ORM',
+                description: <>Skilled in Prisma ORM for database management and schema modeling with TypeScript integration.</>,
+                images: []
             }
         ]
     }
+    
+    //         {
+    //             title: 'Next.js',
+    //             description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+    //             images: [
+    //                 {
+    //                     src: '/images/projects/project-01/cover-04.jpg',
+    //                     alt: 'Project image',
+    //                     width: 16,
+    //                     height: 9
+    //                 },
+    //             ]
+    //         }
+    //     ]
+    // }
 }
 
 const blog = {

@@ -11,8 +11,8 @@
         "label": "Home",
         "title": "{name}",
         "description": "Portfolio website showcasing my work as a {role}",
-        "headline": "Design engineer and builder",
-        "subline": "I'm Selene, a design engineer at FLY, where I craft intuitive user experiences. After hours, I build my own projects."
+        "headline": "Full Stack Developer",
+        "subline": "I'm Parv, a full-stack developer skilled in React and Node.js, creating responsive and scalable applications. After hours, I work on personal projects and explore new technologies."
     },
     "about": {
         "label": "About",
